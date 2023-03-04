@@ -2,6 +2,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    padding: 5%;
 }
 
 .navbar {
@@ -15,6 +16,7 @@ body {
 .btn, .btn:active, .btn:focus, .btn:hover, .btn:active:focus {
     background-color: transparent;
     border: none;
+    padding: 0;
 }
 
 
@@ -24,6 +26,7 @@ i {
 
 h1 {
     font-size: 1.5em;
+    margin-top: 1em;
 }
 
 .cards {
