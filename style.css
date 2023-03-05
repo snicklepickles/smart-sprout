@@ -48,3 +48,32 @@ h1 {
     object-fit: cover;
     border-radius: 0.5rem;
 }
+.carousel-inner {
+    padding:1em;
+    max-width: 2400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.carousel-item{
+    margin: right 0;
+    flex: 0 0 33.333333%;
+    display: block;
+    box-shadow: 3px 5px 5px 0
+}
+.weatherForecast {
+    overflow-x:auto;
+    white-space: nowrap;
+
+}
+.weatherForecast .card {
+    display: inline-block; 
+    border: none;
+    background: none;
+}
+.weather-icon {
+    max-width: 150%;
+    margin: 0 auto;
+    display: block;
+  }
